@@ -15,14 +15,14 @@
 
 <br><br>
 
-<!-- BI & Power Platform (Shields.io Flat Style with Fallback Logos) -->
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=microsoft&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=salesforce&logoColor=white)
-![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=looker&logoColor=white)
+<!-- BI & Power Platform (Forcing Cache Reset) -->
+![Power BI](https://img.shields.io/badge/Power%20BI-f2c811?style=flat&logo=microsoft&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-e97627?style=flat&logo=salesforce&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285f4?style=flat&logo=looker&logoColor=white)
 <br>
-![Power Apps](https://img.shields.io/badge/Power_Apps-742774?style=flat&logo=microsoft&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat&logo=microsoft&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power_Query-50E6FF?style=flat&logo=microsoft&logoColor=black)
+![Power Apps](https://img.shields.io/badge/Power%20Apps-742774?style=flat&logo=microsoft&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066ff?style=flat&logo=microsoft&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-50e6ff?style=flat&logo=microsoft&logoColor=black)
 
 <br><br>
 
