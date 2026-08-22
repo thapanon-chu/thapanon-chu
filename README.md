@@ -22,7 +22,7 @@
 <br>
 ![Power Apps](https://img.shields.io/badge/Power_Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white)
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power_Query-50E6FF?style=for-the-badge&logo=microsoft&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power_Query-50E6FF?style=for-the-badge&logo=microsoft&logoColor=white)
 
 <br>
 
