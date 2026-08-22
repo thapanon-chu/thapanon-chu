@@ -15,18 +15,15 @@
 
 <br><br>
 
-<!-- BI & Power Platform (SimpleIcons) -->
-<img src="https://cdn.simpleicons.org/powerbi/F2C811" height="40" alt="Power BI" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/tableau/E97627" height="40" alt="Tableau" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/looker/4285F4" height="40" alt="Looker Studio" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/powerapps/742774" height="40" alt="Power Apps" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/powerautomate/0066FF" height="40" alt="Power Automate" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/microsoft/50E6FF" height="40" alt="Power Query" />
+<!-- BI & Power Platform (Shields.io Flat Style) -->
+<br>
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=looker&logoColor=white)
+<br>
+![Power Apps](https://img.shields.io/badge/Power_Apps-742774?style=flat&logo=powerapps&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat&logo=powerautomate&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-50E6FF?style=flat&logo=microsoft&logoColor=black)
 
 <br><br>
 
