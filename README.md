@@ -2,9 +2,9 @@
 
 # Hi there, I'm Thapanon Chuamsuk! 👋
 
-**Information Systems - Data Science Student**
+**Information Systems Student | Data Science Minor**
 
-<div align="center">
+<br>
 
 ### 🛠️ Tech Stack & Tools
 
@@ -17,15 +17,18 @@
 
 <!-- BI & Power Platform (SimpleIcons) -->
 <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="40" alt="Power BI" />
+&nbsp;
 <img src="https://cdn.simpleicons.org/tableau/E97627" height="40" alt="Tableau" />
+&nbsp;
 <img src="https://cdn.simpleicons.org/looker/4285F4" height="40" alt="Looker Studio" />
+&nbsp;
 <img src="https://cdn.simpleicons.org/powerapps/742774" height="40" alt="Power Apps" />
+&nbsp;
 <img src="https://cdn.simpleicons.org/powerautomate/0066FF" height="40" alt="Power Automate" />
-<img src="https://cdn.simpleicons.org/microsoft/50E6FF" height="40" alt="Power Query (Microsoft)" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/microsoft/50E6FF" height="40" alt="Power Query" />
 
-<br>
-
-</div>
+<br><br>
 
 ---
 
