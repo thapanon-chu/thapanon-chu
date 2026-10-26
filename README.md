@@ -37,3 +37,45 @@
 
 <a href="https://www.linkedin.com/in/thapanon-chu" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://github.com/thapanon-chu" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+
+---
+
+### Featured Projects
+
+<!-- ================= PROJECT: CPAC CONCRETE DISPATCH OPTIMIZER ================= -->
+<table width="100%">
+  <tr>
+    <td colspan="2">
+      <h4>🚛 01. CPAC Ready-Mixed Concrete (RMC) AI Dispatch Optimizer</h4>
+    </td>
+  </tr>
+  <tr>
+    <!-- ซ้าย: ภาพ Preview (35%) -->
+    <td width="35%" align="center" valign="top">
+      <a href="../Project-Detail-AI-Concrete-Logistics-Optimizer.md" target="_blank">
+        <img src="https://via.placeholder.com/600x380/161b22/8b949e?text=CPAC+Optimizer+Gantt+Preview" alt="Project Preview" width="100%" />
+      </a>
+    </td>
+
+    <!-- ขวา: รายละเอียดโปรเจค + ปุ่มลิงก์ (65%) -->
+    <td width="65%" valign="top">
+      <p>
+        <b>Short detail:</b> 
+        Autonomous, multi-pass route and dispatch optimization engine solving perishable concrete logistics under urban traffic congestion, continuous-pour constraints, and chemical slump-life limits. Achieved 100% SLA compliance (54/54) with a sub-second runtime (0.65s).
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Operations_Research-0052CC?style=flat-square" />
+        <img src="https://img.shields.io/badge/SLA_Pass-100%25-brightgreen?style=flat-square" />
+        <img src="https://img.shields.io/badge/Runtime-0.65s-red?style=flat-square" />
+      </p>
+
+      <!-- ปุ่มกดไปยังไฟล์ Markdown ของโปรเจคนี้ -->
+      <p>
+        <a href="../Project-Detail-AI-Concrete-Logistics-Optimizer.md"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=for-the-badge&logoColor=white" alt="View Details" /></a>
+        <a href="01_Grand_Finals/dashboard_and_viz/dashboard_champion.html"><img src="https://img.shields.io/badge/Live_Dashboard-21262d?style=for-the-badge&logoColor=white" alt="Dashboard" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
