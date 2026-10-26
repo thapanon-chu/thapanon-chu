@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>AI Concrete Hackathon 2026 - คู่มือโจทย์และการแข่งขันฉบับเจาะลึก</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap');
+
+  @page {
+    size: A4;
+    margin: 12mm 14mm 12mm 14mm;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    font-family: 'Sarabun', 'Leelawadee UI', Tahoma, sans-serif;
+    color: #1e293b;
+    line-height: 1.5;
+    font-size: 12.5px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Prompt', 'Leelawadee UI', sans-serif;
+    color: #0f172a;
+    margin-top: 0;
+  }
+
+  .header-card {
+    background: linear-gradient(135deg, #091e42 0%, #1e3a8a 50%, #0284c7 100%);
+    color: white;
+    padding: 18px 22px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  }
+
+  .header-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .header-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    color: #ffffff;
+  }
+
+  .header-subtitle {
+    font-size: 12.5px;
+    color: #e0f2fe;
+    margin-bottom: 10px;
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background: rgba(0, 0, 0, 0.22);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 10.5px;
+  }
+
+  .meta-item strong {
+    color: #38bdf8;
+    display: block;
+    font-size: 9.5px;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    font-size: 14px;
+    font-weight: 600;
+    border-left: 4px solid #0284c7;
+    padding-left: 8px;
+    margin: 14px 0 8px 0;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+  }
+
+  .card-highlight { background: #f0f9ff; border-left: 4px solid #0284c7; }
+  .card-warning { background: #fffbeb; border-left: 4px solid #f59e0b; }
+  .card-danger { background: #fef2f2; border-left: 4px solid #ef4444; }
+  .card-success { background: #f0fdf4; border-left: 4px solid #16a34a; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 11.5px;
+    page-break-inside: avoid;
+  }
+
+  th {
+    background: #0f172a;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: middle;
+  }
+
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  .pill {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 10px;
+    font-size: 9.5px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+  }
+
+  .pill-blue { background: #e0f2fe; color: #0369a1; }
+  .pill-green { background: #dcfce7; color: #15803d; }
+  .pill-red { background: #fee2e2; color: #b91c1c; }
+  .pill-amber { background: #fef3c7; color: #b45309; }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  .footer-note {
+    font-size: 9.5px;
+    color: #64748b;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- PAGE 1 -->
+  <div class="header-card">
+    <div class="header-badge">🚀 AI Hackathon Route Optimization 2026 · AI for Green Logistics</div>
+    <h1 class="header-title">คู่มือวิเคราะห์โจทย์และการแข่งขันฉบับเจาะลึก: AI CONCRETE</h1>
+    <div class="header-subtitle">ถอดรหัสจาก Student Kit, คลิปเสียงบรรยายหน้างาน, Data Book 19 หน้า และโค้ดจำลองระบบ (aiconcrete.py)</div>
+    <div class="meta-grid">
+      <div class="meta-item">
+        <strong>🏢 บริษัทจำลอง</strong>
+        AI Concrete (เมโทรซิตี้)
+      </div>
+      <div class="meta-item">
+        <strong>🎯 เป้าหมายสูงสุด</strong>
+        ผ่าน SLA ครบ 5 วัน + Max Contribution
+      </div>
+      <div class="meta-item">
+        <strong>⏱️ ระยะเวลาแข่งขัน</strong>
+        09:30 – 12:30 น. (3 ชั่วโมง Sprint)
+      </div>
+      <div class="meta-item">
+        <strong>🔒 กติกาวันลับ</strong>
+        Day 5 ผู้จัดรัน solve.py (ห้ามเน็ต, ใน 5 นาที)
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">🎙️ 1. สาระสำคัญจากคลิปเสียงบันทึกหน้างาน (Audio Debrief)</div>
+  <div class="card card-highlight">
+    <div class="grid-2" style="margin-bottom: 0;">
+      <div>
+        <strong style="color: #0369a1; font-size: 11.5px; font-family: 'Prompt';">แก่นของงานที่ต้องส่งมอบ:</strong>
+        <ul style="margin: 4px 0 0 0; padding-left: 16px; font-size: 11px;">
+          <li>เราได้รับ Student Kit ซึ่งมี Template ตั้งต้น (`aiconcrete.py`, `baseline_greedy.py`, `solve.py`)</li>
+          <li>หน้าที่หลักของทีมคือ <strong>ปรับปรุงอัลกอริทึมใน `solve.py`</strong> ให้สร้างผลลัพธ์คำตอบออกมาเป็นไฟล์ <strong>`plan.csv`</strong> (และไฟล์เสริม)</li>
+          <li>หลังรันโค้ดเสร็จ ต้องนำผลลัพธ์ไปประเมินด้วย <strong>`evaluate.py`</strong> เพื่อดูคะแนน SLA และกำไร Contribution</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color: #0369a1; font-size: 11.5px; font-family: 'Prompt';">จุดที่ต้องระวังเป็นพิเศษ:</strong>
+        <ul style="margin: 4px 0 0 0; padding-left: 16px; font-size: 11px;">
+          <li>ผู้จัดมี <strong>Data Book (19 หน้า)</strong> อธิบายเรื่องราว กฎเกณฑ์ และพฤติกรรมลูกค้าไว้อย่างละเอียด</li>
+          <li>ตอนส่งงาน กรรมการจะนำ `solve.py` ไปรันกับ <strong>Day 5 (วันลับ / Hidden Day)</strong> บนเครื่องกรรมการ</li>
+          <li>รอบบ่ายมีทั้งการตรวจโค้ดละเอียด (Technical Defense) และการนำเสนอผลงาน (Pitching) ต่อหน้ากรรมการ CPAC/SCG</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">🚛 2. โครงสร้างโจทย์และขอบเขตปัญหา (Problem Framework)</div>
+  <div class="card">
+    <p style="margin: 0 0 8px 0; font-size: 11.5px;">
+      สำหรับทุกเที่ยวรถโม่ของวันพรุ่งนี้ ทีมต้องตัดสินใจ: <strong>โหลดที่โรงงานไหน (Plant) · ใช้รถคันไหน (Truck) · เริ่มโหลดกี่โมง (Load Start)</strong>
+    </p>
+    <div class="grid-3" style="margin-bottom: 0;">
+      <div style="background: white; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px;">
+        <strong style="color: #0f172a; font-size: 11px; font-family: 'Prompt';">🏭 โรงงาน (8 แห่ง):</strong>
+        <div style="font-size: 10px; color: #475569; margin-top: 3px;">
+          P01–P08 แต่ละแห่งมีพิกัด, จำนวนไลน์ผลิต (2–3 ไลน์), เวลาผสม/QC (15–22 นาที) และต้นทุนวัตถุดิบรายสินค้าไม่เท่ากัน
+        </div>
+      </div>
+      <div style="background: white; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px;">
+        <strong style="color: #0f172a; font-size: 11px; font-family: 'Prompt';">🚚 รถโม่ (Truck Fleets):</strong>
+        <div style="font-size: 10px; color: #475569; margin-top: 3px;">
+          รถใหญ่ 5 m³ และรถเล็ก 2 m³ มีบ้าน (Home Plant) ต่างกัน บางคันสังกัด Vendor V2/V3 วิ่งได้เฉพาะโรงงานที่ระบุ
+        </div>
+      </div>
+      <div style="background: white; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px;">
+        <strong style="color: #0f172a; font-size: 11px; font-family: 'Prompt';">🏗️ ไซต์งานลูกค้า (48 แห่ง):</strong>
+        <div style="font-size: 10px; color: #475569; margin-top: 3px;">
+          มีระดับ SLA (G1–G7), วิธีเท (ปั๊ม, ราง, เครน, ลิฟต์, คน), ปริมาณคิว และข้อจำกัดเขตโรงเรียน/เวลาห้ามรถบรรทุกเข้า
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">⚠️ 3. กฎเหล็กทางกายภาพและเงื่อนไข SLA (Strict Physical Rules)</div>
+  <div class="grid-2">
+    <div class="card card-danger" style="margin-bottom: 0;">
+      <strong style="color: #b91c1c; font-size: 11.5px; font-family: 'Prompt';">1. อายุคอนกรีต (Slump Life):</strong>
+      <p style="margin: 4px 0 0 0; font-size: 10.5px; color: #7f1d1d;">
+        • นับเวลาตั้งแต่เริ่มโหลด (<code>load_start</code>) จนถึงเทเสร็จ<br/>
+        • สูตรปกติ (C180, C240, C280, C320, C350) <strong>ห้ามเกิน 120 นาที</strong><br/>
+        • สูตรหน่วง (C280R) <strong>ห้ามเกิน 150 นาที</strong><br/>
+        • <em>หากเกินเวลา คอนกรีตจะถูกปฏิเสธ (Rejected) เกิดผลเสียร้ายแรง!</em>
+      </p>
+    </div>
+    <div class="card card-warning" style="margin-bottom: 0;">
+      <strong style="color: #b45309; font-size: 11.5px; font-family: 'Prompt';">2. การเทต่อเนื่อง & ป้องกัน Cold Joint:</strong>
+      <p style="margin: 4px 0 0 0; font-size: 10.5px; color: #78350f;">
+        • หน่วยงานเททีละคันตามลำดับ (<code>seq</code>)<br/>
+        • <strong>ปั๊ม / ราง:</strong> ขาดช่วงห่างกันได้ไม่เกิน <strong>20 นาที</strong><br/>
+        • <strong>เครน:</strong> ห้ามขาดช่วงเกิน <strong>30 นาที</strong> | <strong>ลิฟต์:</strong> ไม่เกิน <strong>45 นาที</strong><br/>
+        • <em>หากขาดช่วงเกินกำหนด จะเกิด Cold Joint (รอยต่อคอนกรีตแข็งตัว)</em>
+      </p>
+    </div>
+  </div>
+
+  <div class="section-title">🎯 4. ตารางเกณฑ์ SLA ราย Grade (G1–G7) และสีของออเดอร์</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Grade</th>
+        <th>ชื่อระดับ</th>
+        <th>เป้าตรงเวลา (เที่ยวแรก ±15 นาที)</th>
+        <th>ขาดช่วงได้ไม่เกิน</th>
+        <th>เป้าออเดอร์เขียว</th>
+        <th>น้ำหนัก</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #f0f9ff;">
+        <td><strong>G1</strong></td>
+        <td>Blue Diamond</td>
+        <td><strong>95%</strong></td>
+        <td><strong>5 นาที</strong></td>
+        <td><strong>100%</strong></td>
+        <td>7.0</td>
+      </tr>
+      <tr>
+        <td><strong>G2</strong></td>
+        <td>Platinum</td>
+        <td>90%</td>
+        <td>10 นาที</td>
+        <td>95%</td>
+        <td>5.0</td>
+      </tr>
+      <tr>
+        <td><strong>G3</strong></td>
+        <td>Gold</td>
+        <td>85%</td>
+        <td>15 นาที</td>
+        <td>90%</td>
+        <td>4.0</td>
+      </tr>
+      <tr>
+        <td><strong>G4</strong></td>
+        <td>Silver</td>
+        <td>80%</td>
+        <td>20 นาที</td>
+        <td>85%</td>
+        <td>3.0</td>
+      </tr>
+      <tr>
+        <td><strong>G5</strong></td>
+        <td>Bronze</td>
+        <td>75%</td>
+        <td>25 นาที</td>
+        <td>80%</td>
+        <td>2.0</td>
+      </tr>
+      <tr>
+        <td><strong>G6</strong></td>
+        <td>Standard</td>
+        <td>70%</td>
+        <td>30 นาที</td>
+        <td>75%</td>
+        <td>1.5</td>
+      </tr>
+      <tr>
+        <td><strong>G7</strong></td>
+        <td>Basic</td>
+        <td>65%</td>
+        <td>40 นาที</td>
+        <td>70%</td>
+        <td>1.0</td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="font-size: 10.5px; color: #475569; margin-top: -6px; margin-bottom: 6px;">
+    * <strong>นิยามสีออเดอร์:</strong> <span class="pill pill-green">เขียว</span> = ไม่มีเที่ยวใดขาดช่วงเกินเกณฑ์และไม่มีปูนถูกปฏิเสธ | <span class="pill pill-amber">เหลือง</span> = เกินเกณฑ์ แต่ไม่เกิน 50% ของเที่ยว | <span class="pill pill-red">แดง</span> = เกินเกณฑ์มากกว่า 50%<br/>
+    * <strong>วันนั้นจะ "ผ่าน SLA" ได้:</strong> ต้องผ่านเกณฑ์ทั้งความตรงเวลาและออเดอร์เขียว <strong>ครบทุก Grade (100%)</strong> และไม่มีไฟล์ Error
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="page-break"></div>
+
+  <div class="section-title">📅 5. เจาะลึกสถานการณ์ชุดทดสอบ 5 วัน (Day 1 – Day 5)</div>
+  <table>
+    <thead>
+      <tr>
+        <th>วัน</th>
+        <th>เหตุการณ์</th>
+        <th>สภาพจราจร & เหตุการณ์พิเศษ</th>
+        <th>สถานะโรงงาน & คนขับ</th>
+        <th>จุดเสี่ยงที่ต้องระวัง</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Day 1</strong></td>
+        <td>วันทำงานปกติ</td>
+        <td>จราจรปกติ ไม่มีปิดถนน</td>
+        <td>เปิดปกติทุกแห่ง, <strong>คนขับลา 12%</strong></td>
+        <td>งานแน่นช่วงสาย (10:00) มีงานเทพื้นคอนโด The Riverside ใช้ปั๊ม 2 ตัวพร้อมกัน</td>
+      </tr>
+      <tr>
+        <td><strong>Day 2</strong></td>
+        <td>วันเปิดภาคเรียนที่ 2</td>
+        <td><strong>เขต SCHOOL ห้ามรถบรรทุกเข้า</strong> (06:30–08:30 และ 15:00–16:30), โซน N|E รถติด 1.35x</td>
+        <td>เปิดปกติ, คนขับลาตามปกติ</td>
+        <td>ออเดอร์โรงเรียนนานาชาติ (อาคารใหม่) นัด 07:30 ห้ามรถวิ่งเข้าช่วงรับส่งนักเรียนเด็ดขาด</td>
+      </tr>
+      <tr>
+        <td><strong>Day 3</strong></td>
+        <td>วันลอยกระทง</td>
+        <td>โซน C|W ติด 2.0x ตั้งแต่ 15:00, <strong>โซน C ปิดถนนริมน้ำห้ามรถเข้า 17:00–22:00</strong></td>
+        <td>เปิดปกติ</td>
+        <td>ออเดอร์ท่าเรือริมน้ำ (ลานจัดงาน) นัด 14:30 น. ต้องรีบเทให้จบก่อนปิดถนนเวลา 17:00 น.</td>
+      </tr>
+      <tr>
+        <td><strong>Day 4</strong></td>
+        <td>วันหยุดชดเชย</td>
+        <td>ถนนโล่ง (ความเร็วระดับ Holiday)</td>
+        <td><strong>P03 (พระราม 9) ปิดทำการ</strong>, P02 เปิด 1 ไลน์, <strong>คนขับลาหยุด 35%</strong></td>
+        <td>รถโม่และกำลังผลิตเหลือน้อยมาก ต้องโยกรถและจัดตารางอย่างรัดกุม</td>
+      </tr>
+      <tr style="background: #fef2f2;">
+        <td><strong>Day 5</strong></td>
+        <td><strong>วันลับ (Hidden Day)</strong></td>
+        <td><strong>ข้อมูลลับ กรรมการเป็นผู้รัน solve.py</strong></td>
+        <td><strong>ใช้กำลังผลิตจริง (Truth)</strong></td>
+        <td><strong>ห้าม Hardcode ข้อมูล</strong> ต้องเขียนอัลกอริทึมที่ Dynamic และอ่านไฟล์อัตโนมัติ 100%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">📊 6. การทดสอบ Baseline เปรียบเทียบ (รันจริงบนชุดข้อมูล Day 1)</div>
+  <table>
+    <thead>
+      <tr>
+        <th>เวอร์ชัน</th>
+        <th>ผลการตรวจ SLA</th>
+        <th>คะแนนต่อเนื่อง</th>
+        <th>Contribution สุทธิ</th>
+        <th>ระยะทางรวม</th>
+        <th>Cold Joint</th>
+        <th>ปูนถูกปฏิเสธ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>แผนเดิมของพนักงาน (planner_plan.csv)</strong></td>
+        <td>3 / 14 เกณฑ์ <span class="pill pill-red">ไม่ผ่าน ✗</span></td>
+        <td>40.39 / 60</td>
+        <td>514,961 บาท</td>
+        <td>5,419 กม.</td>
+        <td>20 จุด</td>
+        <td>4 เที่ยว</td>
+      </tr>
+      <tr style="background: #f0fdf4;">
+        <td><strong>Baseline Greedy Level 1 (solve.py)</strong></td>
+        <td>6 / 14 เกณฑ์ <span class="pill pill-red">ไม่ผ่าน ✗</span></td>
+        <td>42.99 / 60</td>
+        <td>532,829 บาท</td>
+        <td>6,782 กม.</td>
+        <td>7 จุด</td>
+        <td>2 เที่ยว</td>
+      </tr>
+      <tr style="background: #eff6ff;">
+        <td><strong>เป้าหมายของทีมเรา (Target)</strong></td>
+        <td><strong>14 / 14 เกณฑ์</strong> <span class="pill pill-green">ผ่าน SLA ✓</span></td>
+        <td><strong>> 55.00 / 60</strong></td>
+        <td><strong>> 550,000+ บาท</strong></td>
+        <td>ลดระยะทางเปล่า</td>
+        <td><strong>0 จุด</strong></td>
+        <td><strong>0 เที่ยว</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">💡 7. จุดคัดคาน (Levers) สำคัญที่ต้องใช้เพื่อพลิกผลการแข่ง</div>
+  <div class="card card-highlight">
+    <strong style="color: #0369a1; font-size: 11.5px; font-family: 'Prompt';">คำใบ้จากผู้จัด: "บางวันแก้ด้วยโค้ดอย่างเดียวไม่ได้ — ต้องอ่านทุกไฟล์ให้ครบ"</strong>
+    <div class="grid-2" style="margin-top: 6px; margin-bottom: 0;">
+      <div>
+        <strong style="color: #0f172a; font-size: 11px;">1. การขอลูกค้าเลื่อนเวลา (<code>order_changes.csv</code>):</strong>
+        <p style="margin: 2px 0 0 0; font-size: 10.5px; color: #334155;">
+          มีลูกค้า 19 รายที่อนุญาตให้เลื่อนเวลาได้ (ดูจาก <code>customers.csv</code> คอลัมน์ <code>flex_type</code> และ <code>flex_max_shift_min</code>) เช่น:<br/>
+          • <strong>C01 คอนโด The Riverside:</strong> <code>later_ok</code> ได้ถึง <strong>300 นาที (5 ชม.)</strong> ปลดล็อกคิวเช้าที่รถชนกันได้หมดจด!<br/>
+          • <strong>C07 โกดังสินค้า:</strong> <code>earlier_ok</code> ยอมให้เข้าเช้าขึ้นได้ 90 นาที
+        </p>
+      </div>
+      <div>
+        <strong style="color: #0f172a; font-size: 11px;">2. การเพิ่มไลน์ผลิตชั่วคราว (<code>production_plan.csv</code>):</strong>
+        <p style="margin: 2px 0 0 0; font-size: 10.5px; color: #334155;">
+          โรงงานที่มีสิทธิ์เพิ่มไลน์ (ดูจาก <code>plants.csv</code> คอลัมน์ <code>boost_*</code>):<br/>
+          • <strong>P05 บางนา:</strong> +1 ไลน์ (09:00–16:00 · 2,500 ฿/ชม.)<br/>
+          • <strong>P06 พระประแดง:</strong> +1 ไลน์ (08:00–17:00 · 3,200 ฿/ชม.)<br/>
+          • <strong>P08 บางพลี:</strong> +1 ไลน์ (09:00–16:00 · 2,800 ฿/ชม.)<br/>
+          <em>คุ้มค่ามากหากช่วยลดเวลารถรอคิวและป้องกัน Cold Joint ได้!</em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">📁 8. ไฟล์ส่งมอบ (Deliverables) & กติกาการให้คะแนน</div>
+  <div class="grid-2">
+    <div class="card" style="margin-bottom: 0;">
+      <strong style="color: #0f172a; font-size: 11px; font-family: 'Prompt';">โครงสร้างโฟลเดอร์ส่งงาน (teamXX/):</strong>
+      <pre style="margin: 4px 0 0 0; font-size: 10px; background: white; border: 1px solid #cbd5e1; padding: 6px; border-radius: 4px;">
+teamXX/
+├── out/
+│   ├── day1/ (plan.csv, order_changes.csv, production_plan.csv)
+│   ├── day2/ ... day4/
+├── code/
+│   ├── solve.py (คำสั่งเดียวที่ผู้จัดใช้รัน Day 5)
+│   ├── aiconcrete.py, helper modules...
+├── viz/
+│   ├── หน้าจอ Dashboard สื่อสาร E2E Supply Chain
+│   └── README.md (คู่มือการใช้งาน)
+└── APPROACH.md (สรุปแนวทาง 0.5–1 หน้า)
+      </pre>
+    </div>
+    <div class="card" style="margin-bottom: 0;">
+      <strong style="color: #0f172a; font-size: 11px; font-family: 'Prompt';">สัดส่วนคะแนนรอบตัดสิน (100 คะแนนเต็ม):</strong>
+      <ul style="margin: 4px 0 0 0; padding-left: 16px; font-size: 10.5px; color: #334155; line-height: 1.5;">
+        <li><strong>ผลคำนวณอัตโนมัติ (50 คะแนน):</strong> จำนวนวันที่ผ่าน SLA ครบ 5 วัน + Contribution รวม 5 วัน + ระยะทางรวม</li>
+        <li><strong>แนวทางและคุณภาพของโค้ด (30 คะแนน):</strong> การวิเคราะห์สิ่งที่ค้นพบ, วิธีการแก้ปัญหาที่รันซ้ำได้จริง, Green Logistics และ Value of Customer</li>
+        <li><strong>Visualization & UX Challenge (20 คะแนน):</strong> ออกแบบหน้าจอสื่อสารแผนให้ผู้ใช้ใน Supply Chain (เลือก ≥ 2 กลุ่ม) ทดสอบจับเวลาเปรียบเทียบกับหน้าจอเดิมของบริษัท</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    คู่มือเตรียมการแข่งขัน AI Hackathon Route Optimization 2026 (AI Concrete) • พัฒนาโดย AI pair programmer เพื่อชัยชนะของทีม
+  </div>
+
+</body>
+</html>

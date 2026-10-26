@@ -1,0 +1,7 @@
+﻿day_type,period,start,end
+weekday,offpeak,00:00,07:00
+weekday,peak,07:00,09:30
+weekday,normal,09:30,16:00
+weekday,peak,16:00,19:00
+weekday,offpeak,19:00,24:00
+holiday,holiday,00:00,24:00

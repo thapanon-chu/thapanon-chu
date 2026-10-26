@@ -1,0 +1,4 @@
+﻿road_type,truck_speed_limit_kmh,avg_kmh_offpeak,avg_kmh_normal,avg_kmh_peak,avg_kmh_holiday,note
+expressway,80,66,52,32,62,ทางด่วน/มอเตอร์เวย์ · รถบรรทุกจำกัด 80 กม./ชม.
+arterial,60,42,30,18,38,ถนนสายหลักในเมือง · จำกัด 60 กม./ชม.
+inner_city,60,30,20,12,27,เขตชั้นใน (โซน C) · จำกัด 60 แต่วิ่งได้จริงช้ามาก · ห้ามรถบรรทุกเข้า 06:30–09:00 และ 16:00–19:00
