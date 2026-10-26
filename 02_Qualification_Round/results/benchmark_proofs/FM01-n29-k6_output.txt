@@ -1,0 +1,62 @@
+
+==============================================================================
+                  UNIVERSAL LOGISTICS ROUTE OPTIMIZER
+==============================================================================
+ [Problem File]      : FM01-n29-k6.vrp
+ [Total Nodes]       : 29 (Depot: Node 1, Customers: 28)
+ [Total Demand]      : 190 units
+ [Available Fleet]   : 6 vehicles
+ [Advanced Config]   : FM01-optional.json
+ [Search Strategy]   : PARALLEL_CHEAPEST_INSERTION + GUIDED_LOCAL_SEARCH
+ [Time Limit]        : 10 seconds
+------------------------------------------------------------------------------
+[*] Initializing distance matrix and constraints...
+[*] Searching for optimal routing solution...
+[+] Optimization Finished: Solution found in 10.01 seconds!
+
+==============================================================================
+                            ROUTE ASSIGNMENTS
+==============================================================================
+[Vehicle 0] (Capacity: 18 | Cost Multiplier: 1.0x)
+  Route : Node 1 [Time: 0] -> Node 3 [Time: 90] -> Node 4 [Time: 118]
+          -> Node 5 [Time: 142] -> Node 17 [Time: 170]
+          -> Depot 1 [Time: 208]
+  Stats : Load: 15/18 (83.3%) | Distance: 103 | Cost: 103.0
+
+[Vehicle 2] (Capacity: 18 | Cost Multiplier: 1.0x)
+  Route : Node 1 [Time: 0] -> Node 2 [Time: 32] -> Node 11 [Time: 56]
+          -> Node 12 [Time: 78] -> Node 13 [Time: 98]
+          -> Node 14 [Time: 130] -> Node 10 [Time: 153]
+          -> Depot 1 [Time: 186]
+  Stats : Load: 17/18 (94.4%) | Distance: 141 | Cost: 141.0
+
+[Vehicle 3] (Capacity: 18 | Cost Multiplier: 1.0x)
+  Route : Node 1 [Time: 0] -> Node 8 [Time: 24] -> Node 23 [Time: 49]
+          -> Node 15 [Time: 82] -> Node 9 [Time: 110]
+          -> Depot 1 [Time: 135]
+  Stats : Load: 16/18 (88.9%) | Distance: 95 | Cost: 95.0
+
+[Vehicle 4] (Capacity: 80 | Cost Multiplier: 1.8x)
+  Route : Node 1 [Time: 0] -> Node 20 [Time: 60] -> Node 21 [Time: 79]
+          -> Node 24 [Time: 112] -> Node 25 [Time: 145]
+          -> Node 26 [Time: 182] -> Node 22 [Time: 226]
+          -> Depot 1 [Time: 273]
+  Stats : Load: 67/80 (83.8%) | Distance: 97 | Cost: 174.6
+
+[Vehicle 5] (Capacity: 80 | Cost Multiplier: 1.8x)
+  Route : Node 1 [Time: 0] -> Node 18 [Time: 31] -> Node 19 [Time: 54]
+          -> Node 6 [Time: 83] -> Node 7 [Time: 112] -> Node 16 [Time: 148]
+          -> Node 27 [Time: 176] -> Node 28 [Time: 211]
+          -> Node 29 [Time: 255] -> Depot 1 [Time: 328]
+  Stats : Load: 75/80 (93.8%) | Distance: 164 | Cost: 295.2
+
+==============================================================================
+                           PERFORMANCE SUMMARY
+==============================================================================
+  Execution Status     : SUCCESS (Feasible Solution Found)
+  Solve Time           : 10.01 seconds
+  Vehicles Utilized    : 5 / 6
+  Total Distance       : 600
+  Total Objective Cost : 808.8
+==============================================================================
+

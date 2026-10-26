@@ -1,0 +1,55 @@
+
+==============================================================================
+                  UNIVERSAL LOGISTICS ROUTE OPTIMIZER
+==============================================================================
+ [Problem File]      : A-n32-k5.vrp
+ [Total Nodes]       : 32 (Depot: Node 1, Customers: 31)
+ [Total Demand]      : 410 units
+ [Available Fleet]   : 5 vehicles
+ [Advanced Config]   : None (Standard TSPLIB Benchmark)
+ [Search Strategy]   : PATH_CHEAPEST_ARC + GUIDED_LOCAL_SEARCH
+ [Time Limit]        : 10 seconds
+------------------------------------------------------------------------------
+[*] Initializing distance matrix and constraints...
+[*] Searching for optimal routing solution...
+[+] Optimization Finished: Solution found in 10.04 seconds!
+
+==============================================================================
+                            ROUTE ASSIGNMENTS
+==============================================================================
+[Vehicle 0] (Capacity: 100 | Cost Multiplier: 1x)
+  Route : Depot 1 -> Node 31 -> Node 17 -> Node 2 -> Node 13 -> Depot 1
+  Stats : Load: 72/100 (72.0%) | Distance: 73 | Cost: 73.0
+
+[Vehicle 1] (Capacity: 100 | Cost Multiplier: 1x)
+  Route : Depot 1 -> Node 22 -> Node 32 -> Node 20 -> Node 18
+          -> Node 14 -> Node 8 -> Node 27 -> Depot 1
+  Stats : Load: 98/100 (98.0%) | Distance: 155 | Cost: 155.0
+
+[Vehicle 2] (Capacity: 100 | Cost Multiplier: 1x)
+  Route : Depot 1 -> Node 25 -> Node 28 -> Depot 1
+  Stats : Load: 44/100 (44.0%) | Distance: 59 | Cost: 59.0
+
+[Vehicle 3] (Capacity: 100 | Cost Multiplier: 1x)
+  Route : Depot 1 -> Node 19 -> Node 9 -> Node 10 -> Node 23 -> Node 16
+          -> Node 30 -> Node 11 -> Node 26 -> Node 6 -> Node 21 -> Depot 1
+  Stats : Load: 98/100 (98.0%) | Distance: 268 | Cost: 268.0
+
+[Vehicle 4] (Capacity: 100 | Cost Multiplier: 1x)
+  Route : Depot 1 -> Node 15 -> Node 29 -> Node 12 -> Node 5 -> Node 24
+          -> Node 3 -> Node 4 -> Node 7 -> Depot 1
+  Stats : Load: 98/100 (98.0%) | Distance: 230 | Cost: 230.0
+
+==============================================================================
+                           PERFORMANCE SUMMARY
+==============================================================================
+  Execution Status     : SUCCESS (Feasible Solution Found)
+  Solve Time           : 10.04 seconds
+  Vehicles Utilized    : 5 / 5
+  Total Distance       : 785
+  Total Objective Cost : 785.0
+  Benchmark Optimal    : 784
+  Optimality Gap       : 0.13%
+  Performance Rating   : EXCELLENT (Gap <= 5%)
+==============================================================================
+
