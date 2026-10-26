@@ -69,7 +69,7 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 <img src="https://img.shields.io/badge/Performance-Instant_Computation-brightgreen?style=flat-square" />
 </p>
 <p>
-<a href="https://github.com/thapanon-chu/ai-concrete-logistics-optimizer"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
+<a href="./01_Grand_Finals/"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
 </p>
 </td>
 </tr>
