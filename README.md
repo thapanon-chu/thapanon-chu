@@ -42,16 +42,15 @@
 
 ### Featured Projects
 
-
 <table width="100%">
 <tr>
 <td colspan="2">
-<h4>01. CPAC-SCG Ready-Mixed Concrete AI Dispatch Optimizer (Hackathon)</h4>
+<h4>01. CPAC Ready-Mixed Concrete (RMC) AI Dispatch Optimizer</h4>
 </td>
 </tr>
 <tr>
 <td width="35%" rowspan="2" align="center" valign="middle">
-<a href="../Project-Detail-AI-Concrete-Logistics-Optimizer.md" target="_blank">
+<a href="./Projects/ai-concrete-logistics-optimizer/" target="_blank">
 <img src="https://via.placeholder.com/600x380/161b22/8b949e?text=CPAC+Optimizer+Gantt+Preview" alt="Project Preview" width="100%" />
 </a>
 </td>
@@ -70,11 +69,10 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 <img src="https://img.shields.io/badge/Performance-Instant_Computation-brightgreen?style=flat-square" />
 </p>
 <p>
-<a href="../Project-Detail-AI-Concrete-Logistics-Optimizer.md"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
+<a href="./Projects/ai-concrete-logistics-optimizer/"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
 </p>
 </td>
 </tr>
 </table>
-
 
 
