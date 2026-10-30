@@ -49,19 +49,15 @@
 </td>
 </tr>
 <tr>
-<td width="35%" rowspan="2" align="center" valign="middle">
+<td width="46%" align="center" valign="middle">
 <a href="https://github.com/thapanon-chu/ai-concrete-logistics-optimizer" target="_blank">
 <img src="https://via.placeholder.com/600x380/161b22/8b949e?text=CPAC+Optimizer+Gantt+Preview" alt="Project Preview" width="100%" />
 </a>
 </td>
-<td width="65%" valign="top">
+<td width="54%" valign="middle">
 <p>
 Autonomous route and dispatch optimization engine solving perishable concrete logistics under urban traffic congestion, continuous-pour constraints, and chemical slump-life limits. Engineered for instantaneous schedule computation, enabling dispatchers to adapt to unexpected delays in real time without operational lag.
 </p>
-</td>
-</tr>
-<tr>
-<td width="65%" valign="bottom">
 <p>
 <img src="https://img.shields.io/badge/Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Operations_Research-0052CC?style=flat-square" />
@@ -84,19 +80,15 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 </td>
 </tr>
 <tr>
-<td width="35%" rowspan="2" align="center" valign="middle">
+<td width="46%" align="center" valign="middle">
 <a href="https://github.com/thapanon-chu/netpulse" target="_blank">
 <img src="https://raw.githubusercontent.com/thapanon-chu/netpulse/main/assets/app_showcase.gif" alt="NetPulse UI Showcase" width="100%" />
 </a>
 </td>
-<td width="65%" valign="top">
+<td width="54%" valign="middle">
 <p>
 High-performance Windows desktop network telemetry and analytics engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection for suspicious bandwidth bursts, Huber M-estimation regression with cyclical trigonometric feature engineering for monthly data cap projections, and a reactive Streamlit web dashboard.
 </p>
-</td>
-</tr>
-<tr>
-<td width="65%" valign="bottom">
 <p>
 <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
