@@ -75,3 +75,41 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 </tr>
 </table>
 
+<br>
+
+<table width="100%">
+<tr>
+<td colspan="2">
+<h4>02. NetPulse — Real-Time Network Telemetry & ML Analytics Suite</h4>
+</td>
+</tr>
+<tr>
+<td width="35%" rowspan="2" align="center" valign="middle">
+<a href="https://github.com/thapanon-chu/netpulse" target="_blank">
+<img src="https://raw.githubusercontent.com/thapanon-chu/netpulse/main/assets/logo.png" alt="NetPulse Logo" width="100%" />
+</a>
+</td>
+<td width="65%" valign="top">
+<p>
+High-performance Windows desktop network telemetry and analytics engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection for suspicious bandwidth bursts, Huber M-estimation regression with cyclical trigonometric feature engineering for monthly data cap projections, and a reactive Streamlit web dashboard.
+</p>
+</td>
+</tr>
+<tr>
+<td width="65%" valign="bottom">
+<p>
+<img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Machine_Learning-Isolation_Forest-8b5cf6?style=flat-square" />
+<img src="https://img.shields.io/badge/Time--Series-Huber_Forecasting-06b6d4?style=flat-square" />
+</p>
+<p>
+<a href="https://github.com/thapanon-chu/netpulse" target="_blank"><img src="https://img.shields.io/badge/View_Project_&_Code-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
+<a href="https://github.com/thapanon-chu/netpulse/releases/tag/v2.4.0" target="_blank"><img src="https://img.shields.io/badge/Download_Portable_v2.4.0-0969da?style=flat&logo=windows&logoColor=white" height="28" alt="Download Portable" /></a>
+</p>
+</td>
+</tr>
+</table>
+
