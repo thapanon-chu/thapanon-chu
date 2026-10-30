@@ -86,7 +86,7 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 <tr>
 <td width="35%" rowspan="2" align="center" valign="middle">
 <a href="https://github.com/thapanon-chu/netpulse" target="_blank">
-<img src="https://raw.githubusercontent.com/thapanon-chu/netpulse/main/assets/logo.png" alt="NetPulse Logo" width="100%" />
+<img src="https://raw.githubusercontent.com/thapanon-chu/netpulse/main/assets/app_showcase.gif" alt="NetPulse UI Showcase" width="100%" />
 </a>
 </td>
 <td width="65%" valign="top">
