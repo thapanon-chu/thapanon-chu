@@ -45,38 +45,7 @@
 <table width="100%">
 <tr>
 <td colspan="2">
-<h4>01. CPAC Ready-Mixed Concrete (RMC) AI Dispatch Optimizer</h4>
-</td>
-</tr>
-<tr>
-<td width="46%" align="center" valign="middle">
-<a href="https://github.com/thapanon-chu/ai-concrete-logistics-optimizer" target="_blank">
-<img src="https://via.placeholder.com/600x380/161b22/8b949e?text=CPAC+Optimizer+Gantt+Preview" alt="Project Preview" width="100%" />
-</a>
-</td>
-<td width="54%" valign="middle">
-<p>
-Autonomous route and dispatch optimization engine solving perishable concrete logistics under urban traffic congestion, continuous-pour constraints, and chemical slump-life limits. Engineered for instantaneous schedule computation, enabling dispatchers to adapt to unexpected delays in real time without operational lag.
-</p>
-<p>
-<img src="https://img.shields.io/badge/Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Operations_Research-0052CC?style=flat-square" />
-<img src="https://img.shields.io/badge/Heuristic_Search-green?style=flat-square" />
-<img src="https://img.shields.io/badge/Performance-Instant_Computation-brightgreen?style=flat-square" />
-</p>
-<p>
-<a href="./01_Grand_Finals/"><img src="https://img.shields.io/badge/View_Project_&_Code_➔-238636?style=flat&logo=github&logoColor=white" height="28" alt="View Project & Code" /></a>
-</p>
-</td>
-</tr>
-</table>
-
-<br>
-
-<table width="100%">
-<tr>
-<td colspan="2">
-<h4>02. NetPulse — Real-Time Network Telemetry & ML Analytics Suite</h4>
+<h4>NetPulse — Real-Time Network Telemetry & ML Analytics Suite</h4>
 </td>
 </tr>
 <tr>
@@ -87,7 +56,7 @@ Autonomous route and dispatch optimization engine solving perishable concrete lo
 </td>
 <td width="54%" valign="middle">
 <p>
-High-performance Windows desktop network telemetry and analytics engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection for suspicious bandwidth bursts, Huber M-estimation regression with cyclical trigonometric feature engineering for monthly data cap projections, and a reactive Streamlit web dashboard.
+High-performance Windows desktop network telemetry and analytics engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection for suspicious bandwidth bursts, Huber M-estimation regression with cyclical trigonometric feature engineering for monthly data cap projections, and a reactive Streamlit web dashboard. Built for personal daily monitoring and actively running 24/7 as an in-use daily driver.
 </p>
 <p>
 <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
