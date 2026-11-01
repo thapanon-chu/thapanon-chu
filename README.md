@@ -56,7 +56,7 @@
 </td>
 <td width="54%" valign="middle">
 <p>
-High-performance Windows desktop network telemetry and analytics engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection for suspicious bandwidth bursts, Huber M-estimation regression with cyclical trigonometric feature engineering for monthly data cap projections, and a reactive Streamlit web dashboard. Built for personal daily monitoring and actively running 24/7 as an in-use daily driver.
+High-performance Windows desktop telemetry engine designed for low-overhead socket monitoring and machine learning capacity forecasting. Features unsupervised Isolation Forest anomaly detection, robust Huber M-estimation for monthly data caps, and a reactive Streamlit web dashboard. Built for personal daily monitoring and actively running 24/7 as an in-use daily driver.
 </p>
 <p>
 <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
